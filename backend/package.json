@@ -4,7 +4,7 @@
   "description": "Node.js Rest Apis with Express, Sequelize & PostgreSQL",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "keywords": [
     "nodejs",
@@ -14,13 +14,14 @@
     "api",
     "postgresql"
   ],
-  "author": "bezkoder",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "pg": "^8.6.0",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^5.21.3"
+    "sequelize": "^5.21.3",
+    "nodemon": "^2.0.22"
   }
 }
