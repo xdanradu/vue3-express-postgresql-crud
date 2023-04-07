@@ -1,5 +1,5 @@
 .DS_Store
-vue-3-typescript-example/node_modules
+frontend/node_modules
 /dist
 
 
